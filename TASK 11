@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #2ecc71;
+    padding: 20px 0;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  header h1 {
+    color: white;
+    font-size: 2em;
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  header nav ul li {
+    margin-right: 20px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  
+  .main-section {
+    padding: 40px 20px;
+    background-color: #ffffff;
+  }
+  
+  .main-section h2 {
+    text-align: center;
+    color: #2ecc71;
+    font-size: 2.5em;
+  }
+  
+  .fitness-form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: grid;
+    gap: 20px;
+  }
+  
+  .fitness-form label {
+    font-size: 1.1em;
+  }
+  
+  .fitness-form input {
+    padding: 10px;
+    font-size: 1.1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .fitness-form button {
+    padding: 12px 20px;
+    background-color: #2ecc71;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .fitness-form button:hover {
+    background-color: #27ae60;
+  }
+  
+  .tracker-results {
+    padding: 20px;
+    background-color: #f7f7f7;
+    margin-top: 20px;
+  }
+  
+  .tracker-results h3 {
+    text-align: center;
+    font-size: 2em;
+    color: #2ecc71;
+  }
+  
+  .results p {
+    font-size: 1.3em;
+    margin: 10px 0;
+  }
+  
+  .results span {
+    font-weight: bold;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  footer .container {
+    padding: 0 20px;
+  }
+  
